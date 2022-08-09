@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    text-align: center;
+    
+    
+}
+
+.urna{
+    background-color: #dbd5c9;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.tela{
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(to right, #E8E8E8, #c1c1c1);
+
+
+
+}
+.teclado{
+    background-color: #403a3a;
+    margin-left: 30px;
+    
+
+
+}
