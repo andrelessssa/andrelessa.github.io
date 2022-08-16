@@ -17,9 +17,10 @@ body{
     justify-content: center;
 }
 .tela{
+
     width: 500px;
     height: 320px;
-    background: linear-gradient(to right, #E8E8E8, #c1c1c1);
+    background: linear-gradient(to right, #E8E8E8, #cd1e1e);
     border: 2px solid black;
     display: flex;
     flex-direction: column;
