@@ -1,119 +1,13 @@
-
-/*  Todas as demais Mídias
-
- typical Device Breackpoints
- pequenas telas : ate 600px
- celulas: de 600px ate 768px
- tablet: de 768px ate 992px
- Desktop: de 992px ate 1200px
- grandes telas : acima de 1200px
-
-*/
-
-
-
-
 body{
-    margin: 0%; 
-      
-}
-.urna{
-    font-family: Arial, Helvetica, sans-serif;  
-    background-color: #dbd5c9;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-}
-.tela{
-
-    width: 500px;
-    height: 320px;
-    background: linear-gradient(to right, #E8E8E8, #cd1e1e);
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-}
-.teclado{
-    background-color: #403a3a;
-    margin-left: 30px;
-}
-.teclado--linha{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.teclado--botao{
-    width: 70px;
-    height: 40PX;
-    background-color: black;
-    color: #c1c1c1;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-    cursor: pointer;
-    box-shadow: 3px 3px 0px #555;
-}
-.botao--branco{
-    background-color: #fff;
-    color: black;
-    font-size: 15px;
-}
-.botao--corrige{
-    background-color: #f09046;
-    color: black;
-    font-size: 15px;
-}
-.botao--confirma{
-    background-color: #48c079;
-    color: black;
-    font-size: 15px;
-    width: 80px;
-    height: 50px;
-}
-.divisao1{
-    flex: 1;
-    display: flex;
-
-}
-.d1-left{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-
-
-}
-.d-1-1{
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-.d-1-2{
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-.d-1-3{
-    height: 50px;
-    
-    
+    background-color: rgb(121, 121, 121);
     
 }
-.d-1-4{
-    flex: 1;
-    line-height: 30px;
+div#barraFixa{
+    background-color: rgb(215, 228, 190);
+    height: 100px;
+    height: 100px;
     
-}
-.d1-right{
-    width: 90px;
-}
-
-.divisao2{
-    height: 50px;
-    font-size: 14px;
-    border: 2px solid black;
-    padding-left: 10px;
-
+    
+   
+    
 }
