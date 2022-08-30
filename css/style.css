@@ -1,9 +1,17 @@
-@media(min-width:320px){
-    html{
-        
-    }
 
-}
+/*  Todas as demais Mídias
+
+ typical Device Breackpoints
+ pequenas telas : ate 600px
+ celulas: de 600px ate 768px
+ tablet: de 768px ate 992px
+ Desktop: de 992px ate 1200px
+ grandes telas : acima de 1200px
+
+*/
+
+
+
 
 body{
     margin: 0%; 
