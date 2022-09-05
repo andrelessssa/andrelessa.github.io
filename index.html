@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css"">
     <title>Modelo</title>
 </head>
 
@@ -21,12 +21,34 @@
         </div>
     </section>
 
+    
 
-    
-    
+
+    <header>
+        <h1>Contador</h1>
+    </header>
+
+    <section>
+        <div id="dados">
+            <p>Início: <input type="number" name="inicio" id="txti"></p>
+            <p>Fim: <input type="number" name="fim" id="txtf"></p>
+            <p>Passo: <input type="number" name="passo" id="txtp"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
+        </div>
+        <div id="res">
+            Preparando a Contagem...
+            
+        </div>
+    </section>
+
+
+
+
+
+
     <footer>
         <p>&copy;André Lessa</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

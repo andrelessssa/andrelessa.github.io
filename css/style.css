@@ -12,20 +12,15 @@ section{
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgb(133, 84, 84);
-   
+    box-shadow: 5px 5px 10px rgb(133, 84, 84);  
 }
 footer{
     color: white;
     text-align: center;
     font-style: italic;
-
-
 }
 div{
-    text-align: center;
-
-   
+    text-align: center;   
 }
 img{
     width: 300px;
