@@ -31,6 +31,50 @@ function contar(){
     window.alert('[ERRO] Faltam Dados')
 
 } else {
-    window.alert('Tudo Ok')
+    res.innerHTML = `CONTANDO..`
+    let i = Number(ini.value)
+    let f = Number(fim.value)
+    let p = Number(passo.value)
+    if (p <= 0){
+        window.alert('Passo Inválido')
+        p=1
+    }
+    if(i < f){
+        // contagem crescente
+        for(let c = i;c<=f;c+=p){
+            res.innerHTML += `${c} \u{1F600}`
+        }
+    }else {
+        // contagem regressiva
+        for(let c=i;c>=f;c-=p){
+            res.innerHTML += `${c} \u{1F600}`
+        }
+    }
 }
+}
+
+// -------------- Terceira Section----------//
+
+function tabuada(){
+    let num = document.getElementById('txtn')
+    let tab = document.getElementById('seltab')
+
+    if (num.value.length == 0 ){
+        window.alert('Por Favor, Digite um numero.')
+        let n = Number(num.value)
+    } else{
+        let n = Number(num.value)
+        let c = 1
+        tab.innerHTML = '' // pra que quando mudar o numero ele zera a caixa
+        while (c <=10){
+            let item = document.createElement('option')// pra criar elementos sem precisar ir no html
+            item.text = `${n} x ${c} = ${n*c}`
+            item.value = `tab${c}`
+            tab.appendChild(item)
+            c++
+        }
+    
+    }
+
+    
 }
