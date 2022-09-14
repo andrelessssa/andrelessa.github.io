@@ -78,3 +78,6 @@ function tabuada(){
 
     
 }
+
+// -------------- Terceira Section----------//
+
