@@ -67,7 +67,8 @@ function tabuada(){
         let c = 1
         tab.innerHTML = '' // pra que quando mudar o numero ele zera a caixa
         while (c <=10){
-            let item = document.createElement('option')// pra criar elementos sem precisar ir no html
+            let item = document.createElement('option')// pra criar elemen
+            tos sem precisar ir no html
             item.text = `${n} x ${c} = ${n*c}`
             item.value = `tab${c}`
             tab.appendChild(item)
@@ -81,3 +82,12 @@ function tabuada(){
 
 // -------------- Terceira Section----------//
 
+
+let num = document.querySelector('input#fnum')
+let lista = document.querySelector('select#flista')
+let res = document.querySelector('div#res')
+let valores = []
+
+function adicionar(){
+    if()
+}

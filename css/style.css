@@ -27,3 +27,6 @@ img{
     height: 300px;
     margin: 20px 20px 20px 20px ;
 }
+select#flista{
+    width: 150px;
+}
