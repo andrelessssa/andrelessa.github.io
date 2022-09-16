@@ -1,3 +1,4 @@
+
 function carregar(){
 var msg = window.document.getElementById('msg')
 var img = window.document.getElementById('imagem')
@@ -68,7 +69,6 @@ function tabuada(){
         tab.innerHTML = '' // pra que quando mudar o numero ele zera a caixa
         while (c <=10){
             let item = document.createElement('option')// pra criar elemen
-            tos sem precisar ir no html
             item.text = `${n} x ${c} = ${n*c}`
             item.value = `tab${c}`
             tab.appendChild(item)
@@ -88,6 +88,45 @@ let lista = document.querySelector('select#flista')
 let res = document.querySelector('div#res')
 let valores = []
 
+function isNumero(n){
+    if(Number(n) >= 1 && Number(n) <= 100){
+        return true
+    }else{
+        return false
+    }
+}
+function inLista(n, l ) {
+    if(l.indexOf(Number(n)) != -1 ) {
+        return true
+    }else {
+        return false
+    }
+}
 function adicionar(){
-    if()
+    if(isNumero(num.value) && !inLista(num.value, valores)){
+        valores.push(Number(num.value))
+        let item = document.createElement('option')
+        item.text = `Valor ${num.value} adicionado.`
+        lista.appendChild(item)
+        res.innerHTML = ''
+
+    }else{
+        window.alert('Valores inválidos ou já encontrados na Linsta.')
+    }
+
+num.value = ''
+num.focus()
+}
+
+function finalizar(){
+    if (valores.length == 0 ){
+        window.alert('Adicione valores antes de Finalizar!')
+    } else {
+        let toy = valores.length
+        
+
+        res.innerHTML = ''
+        res.innerHTML += `<p> Ao todo, temos ${toy} números cadastrados. </p>`
+        
+    }
 }
