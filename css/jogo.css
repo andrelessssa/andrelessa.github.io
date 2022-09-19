@@ -68,5 +68,5 @@ body{
 }
 @media only screen and (max-device-width: 300px) {
 
-     .mario { width:100px; } ;
+     .mario { height:100px; } ;
 }
