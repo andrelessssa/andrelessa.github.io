@@ -4,48 +4,60 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(45deg,black,green);
+    background-image: linear-gradient(45deg,black,rgb(128, 0, 90));
     height: 100vh;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.nome{
     text-align: center;
 }
 .game-board{
     background-color: white;
     width: 80%;
     height: 500px;
-    border: 1px solid #333;
+    border-bottom: 15px solid rgb(35, 160, 35);
     margin: 0 auto;
-    position: relative;
-    overflow: hidden;
+    position: relative;/* pra as coisas respeitarem as margens */ 
+    overflow: hidden; /* para tudo que sair das limitacoes nao apareca mais na tela*/ 
+    background: linear-gradient(#87CEEB,#E0F6FF);
+
 
 }
-.pipe{
-    position: absolute;
-    bottom: 0;
-    width: 80px;
-    animation: pipe-animation  1.5s infinite linear;
+.pipe{                   /*Tubo verde*/ 
+    position: absolute;  /* pra uma nao interferir no comportamento da outra */ 
+    bottom: 0; /* pra ele ficar pixo embaixo */ 
+    width: 80px; /* tamanho dele */ 
+    animation: pipe-animation  2s infinite linear; /*usando a animacao com a duracao*/ 
     
 
 }
-.mario{
-    width: 150px;
-    position: absolute;
-    bottom: 0;
+.mario{   /*mario */ 
+    width: 150px;   /*Tamanho dele */ 
+    position: absolute; /*pra nao interferir*/ 
+    bottom: 0; /*pra ficar embaixo*/ 
       
 }
 .jump{
     animation: jump 500ms infinite ease-out;
 
 }
+.clouds{
+    margin: 30px;
+    width: 450px;
+    position: absolute;
+    animation: clouds-animatio 20s infinite linear;
+}
+ /* nessa animacao o tupo precisa andar do rigth 0 ate o 100% que é quando ele sai do quadro */ 
 @keyframes pipe-animation{
     from {
         right: -80px;
     }to{
-        right: 95%;
+        right: 100%;
 
     }
 }
+/*nessa animacao ele precisa subir e cair*/ 
 @keyframes jump{
    
     0% {
@@ -64,5 +76,13 @@ body{
     100%{
         bottom: 0;
 
+    }
+}
+@keyframes clouds-animatio{
+    from{
+        right: -450px;
+    }
+    to{
+        right: 100%;
     }
 }
