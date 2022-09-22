@@ -71,19 +71,22 @@
     flex: 1 1 200px ;
     display: flex;
     flex-direction: column;
-    padding: 5px ;      
+         
 }
 .img-flix , .vid-leg , .img-pt, .img-azul{
 
     height: 150px;
     width: 180px;
-    border: solid 2px black;
+    
     
 }
 
 .video{
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
+   
+    
+
     
 }
 .caixa-mae > .caixa2{
@@ -147,6 +150,7 @@
     padding: 20px;
     height: 350px;
 }
+
 
 
 
