@@ -1,37 +1,43 @@
-body{
+body {
     background: rgb(146, 146, 224);
     font: 15pt Arial;
 }
-header{
+
+header {
     color: white;
     text-align: center;
 }
-section{
+
+section {
     background: white;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgb(133, 84, 84);  
+    box-shadow: 5px 5px 10px rgb(133, 84, 84);
 }
-footer{
+
+footer {
     color: white;
     text-align: center;
     font-style: italic;
 }
-div{
-    text-align: center;   
-}
-img{
-    width: 300px;
-    height: 300px;
-    margin: 20px 20px 20px 20px ;
-}
-select#flista{
-    width: 150px;
-}
-.teste{
-    color: white;
+
+div {
     text-align: center;
 }
 
+img {
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 20px;
+}
+
+select#flista {
+    width: 150px;
+}
+
+.teste {
+    color: white;
+    text-align: center;
+}

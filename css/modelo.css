@@ -1,45 +1,55 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.container-header{
-   padding: 20px;
+
+.container-header {
+    padding: 20px;
     height: 100px;
     background-color: bisque;
-    display:flex; /* para identificar que aqui é o container */
-    flex-direction: row; /* para identificar o eixo (se vai ser horiz ou vert)*/
-    justify-content: flex-end; /* para alinhar os elementos no eixo  */
-    align-items: center; /* para alinhar os elementos */
+    display: flex;
+    /* para identificar que aqui é o container */
+    flex-direction: row;
+    /* para identificar o eixo (se vai ser horiz ou vert)*/
+    justify-content: flex-end;
+    /* para alinhar os elementos no eixo  */
+    align-items: center;
+    /* para alinhar os elementos */
     gap: 20px;
 }
-.container-corpo{
+
+.container-corpo {
     padding: 20px;
     height: 400px;
     background-color: aquamarine;
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
 }
-.bloco-1{
+
+.bloco-1 {
     background-color: rgb(174, 107, 237);
     padding: 10px;
     width: 80px;
     border-radius: 10px;
 }
-.bloco-2{
+
+.bloco-2 {
     background-color: rgb(98, 80, 114);
     padding: 10px;
     width: 80px;
     border-radius: 10px;
 }
-.bloco-3{
+
+.bloco-3 {
     background-color: rgba(108, 0, 217, 0.846);
     padding: 10px;
     width: 80px;
     border-radius: 10px;
 }
-.logo{
+
+.logo {
     background-color: rgba(0, 134, 217, 0.846);
     padding: 10px;
     width: 80px;
