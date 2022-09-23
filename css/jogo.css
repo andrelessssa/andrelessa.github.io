@@ -57,11 +57,6 @@ body{
     height: 100%;
 
 }
-
-
-
-
-
  /* nessa animacao o tupo precisa andar do rigth 0 ate o 100% que é quando ele sai do quadro */ 
 @keyframes pipe-animation{
     from {
