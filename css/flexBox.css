@@ -1,17 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
-.cabecalho{
+
+.cabecalho {
     background-color: black;
-    position: absolute;
     color: white;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 70px;
+    
 }
-.links li{
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.noticias {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.noticias .div {
+    display: flex;
+    flex-direction: column;
+}
+.cards {
+    width: 100%;
+    height: 250px;
+    border: 2px solid black;
 
 }
