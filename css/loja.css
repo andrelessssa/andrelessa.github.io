@@ -8,8 +8,19 @@
     background-color: #FEF159;
     display: flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content:first space-between;
 
+}
+.form{
+    display: flex;
+    flex-direction:row-reverse;
+}
+input{
+    border: none;
+    width: 500px;
+    height: 30px;
+    padding: 5px 6px 7px 35px;
+    
 }
 .container-section{
     height: 450px;
