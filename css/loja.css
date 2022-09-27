@@ -11,17 +11,26 @@
     justify-content:first space-between;
 
 }
-.form{
+.forme{
+    background-color: white;
+    
+    width: 500px;
+    height: 40px;
     display: flex;
-    flex-direction:row-reverse;
+    align-items:center;
+    justify-content:space-between;
+    border-radius: 15px;
+
 }
 input{
+    width: 150%;
+    height: 40px;
     border: none;
-    width: 500px;
-    height: 30px;
-    padding: 5px 6px 7px 35px;
-    
+    margin-left: 40px;
+    font-size: 20px;
 }
+
+
 .container-section{
     height: 450px;
     width: 100%;
