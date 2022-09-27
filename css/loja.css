@@ -1,63 +1,68 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.container-header{
+
+.container-header {
     height: 120px;
     width: 100%;
     background-color: #FEF159;
     display: flex;
-    align-items:center;
-    justify-content:first space-between;
+    align-items: center;
+    justify-content: first space-between;
 
 }
-.forme{
+
+.forme {
     background-color: white;
     width: 500px;
     height: 40px;
     display: flex;
-    align-items:center;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 2px;
 
 }
-input{
+
+input {
     width: 180%;
     height: 40px;
     border: none;
     margin-left: 40px;
     font-size: 20px;
 }
-.boton{
+
+.boton {
     width: 25px;
     height: 25px;
     padding-right: 10px;
-    
+
 }
 
 
-.container-section{
+.container-section {
     height: 450px;
     width: 100%;
     background-color: #EDEDED;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.formulario{
+.formulario {
     height: 350px;
     width: 70%;
     background-color: white;
 
 }
-.logo{
+
+.logo {
     height: 80px;
-    width: 150px;
+    width: 160px;
     padding: 20px;
 }
 
-footer{
+footer {
     text-align: center;
 }
