@@ -6,13 +6,33 @@
     height: 120px;
     width: 100%;
     background-color: #FEF159;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 
 }
-.formulario{
+.container-section{
     height: 450px;
     width: 100%;
     background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.formulario{
+    height: 350px;
+    width: 70%;
+    background-color: white;
+
+}
+.logo{
+    height: 80px;
+    width: 150px;
+    padding: 20px;
+}
+
 footer{
     text-align: center;
 }
