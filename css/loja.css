@@ -159,36 +159,3 @@
 footer {
     text-align: center;
 }
-/*
-
-@media screen and (max-width: 1330px) {
-    .container-header{
-        display: none;
-    }
-    .container-section{
-        width: 50%;
-    }
-    .forme{
-        width: 100%;
-    }
-    
-}
-@media screen and (max-width: 1064px) {
-    .container-section{
-        width: 90%;
-        height: auto;
-
-    }
-    .formulario{
-        flex-direction: column;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-        margin-right: 10rem;
-        padding-right: 5rem;
-    }
-    .gender-inputs{
-        margin-top: 2rem;
-    }
-    
-}
-*/
