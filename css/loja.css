@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;1,100;1,500;1,600&family=Sora:wght@300;400;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 .container-header {
@@ -47,15 +50,105 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+   
 }
 
 .formulario {
-    height: 350px;
+    height: 300px;
     width: 70%;
     background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    
 
 }
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    margin-bottom: 10px ;
+    align-items:center;
+
+    
+    
+    
+}
+.login-button{
+    display: flex;
+    align-items: center;
+}
+.login-button button{
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.login-button button:hover{
+    background-color: #6c63fff1;
+
+
+}
+.login-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 1rem 0;
+
+    
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box input:hover{
+    background-color: #eeeeee75;
+
+}
+.input-box input:focus{
+    outline: 1px solid #6c63ff;
+
+}
+.input-box label,
+.gender-title h6{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+
+
+}
+.input-box input::placeholder{
+    color: #000000be;
+    
+
+} 
+  
+
 
 .logo {
     height: 80px;
@@ -65,4 +158,35 @@
 
 footer {
     text-align: center;
+}
+
+@media screen and (max-width: 1330px) {
+    .container-header{
+        display: none;
+    }
+    .container-section{
+        width: 50%;
+    }
+    .forme{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 1064px) {
+    .container-section{
+        width: 90%;
+        height: auto;
+
+    }
+    .formulario{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        margin-right: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-inputs{
+        margin-top: 2rem;
+    }
+    
 }
