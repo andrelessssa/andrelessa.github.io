@@ -89,7 +89,7 @@
     cursor: pointer;
 }
 .login-button button:hover{
-    background-color: #6c63fff1;
+    background-color: #F79733;
 
 
 }
@@ -133,7 +133,7 @@
 
 }
 .input-box input:focus{
-    outline: 1px solid #6c63ff;
+    outline: 1px solid #F79733;
 
 }
 .input-box label,
