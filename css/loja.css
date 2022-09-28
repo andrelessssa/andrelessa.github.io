@@ -68,10 +68,12 @@
     margin-bottom: 3rem;
     display: flex;
     margin-bottom: 10px ;
-    align-items:center;
-
-    
-    
+    justify-content: space-between;
+   
+}
+.title{
+    display: flex;
+    justify-content:space-between;
     
 }
 .login-button{
@@ -80,7 +82,7 @@
 }
 .login-button button{
     border: none;
-    background-color: #6c63ff;
+    background-color:#F79733;
     padding: 0.4rem 1rem;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -101,7 +103,7 @@
     display: block;
     width: 5rem;
     height: 0.3rem;
-    background-color: #6c63ff;
+    background-color: #F79733;
     margin: 0 auto;
     position: absolute;
     border-radius: 10px;
