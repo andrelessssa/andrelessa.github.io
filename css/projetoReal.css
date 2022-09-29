@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    position: absolute;
+    width: 1680px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.um {
+    position: absolute;
+    width: 1680px;
+    height: 960px;
+    left: 0px;
+    top: 60px;
+    background: #F5F5F5;
+}
+.um h2 {
+
+position: absolute;
+width: 1392px;
+height: 80px;
+left: 600px;
+top: 632px;
+}
+.botao1{
+    position: absolute;
+width: 192px;
+height: 52px;
+left: 744px;
+top: 752px;
+}
+
+.dois {
+    position: absolute;
+    width: 1680px;
+    height: 948px;
+    left: 0px;
+    top: 1020px;
+    background: #FFFFFF;
+}
+
+.tres {
+    position: absolute;
+    width: 1680px;
+    height: 600px;
+    left: 0px;
+    top: 1968px;
+    background: #FFFFFF;
+}
+
+.quatro {
+
+    position: absolute;
+    width: 1680px;
+    height: 600px;
+    left: 0px;
+    top: 2568px;
+    background: #F5F5F5;
+}
+
+.cinco {
+    position: absolute;
+    width: 1680px;
+    height: 738px;
+    left: 0px;
+    top: 3168px;
+    background: #FFFFFF;
+}
+
+.seis {
+    position: absolute;
+    width: 1680px;
+    height: 340px;
+    left: 0px;
+    top: 3906px;
+    background: #F5F5F5;
+}
+
+footer {
+    position: absolute;
+    width: 1680px;
+    height: 501px;
+    left: 0px;
+    top: 4246px;
+    background: #FFFFFF;
+}
