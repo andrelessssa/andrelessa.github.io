@@ -81,8 +81,9 @@ nav a:hover{
 
 }
 footer{
+    background: url("/img/alura_1/bg.jpg");
     text-align: center; 
-    background: url("img/alura_1/bg.jpg");
     padding: 40px 0;
+   
     
 }
