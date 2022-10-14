@@ -28,6 +28,10 @@ nav a{
     font-weight: bold;
     font-size: 22px;
 }
+nav a:hover{
+    color: bisque;
+    text-decoration: underline;
+}
 .produtos{
     width: 940px;
     margin: 0 auto;
@@ -36,15 +40,32 @@ nav a{
 .produtos li{
     display: inline-block;
     text-align: center;
-    border: solid black;
     width: 30%;
     vertical-align: top;
-    background-color: #CCCCCC;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2PX ;
+    border-style: solid;
+    border-radius: 10px;
 
 }
+.produtos li:hover{
+    border-color: bisque;
+
+}
+.produtos li:active{
+    border-color: #089C19;
+
+}
+.produtos li:hover h2{
+    font-size: 34px;
+
+
+}
+
+
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
@@ -58,4 +79,10 @@ nav a{
     font-weight: bold;
     margin-top: 10px;
 
+}
+footer{
+    text-align: center; 
+    background: url("img/alura_1/bg.jpg");
+    padding: 40px 0;
+    
 }
