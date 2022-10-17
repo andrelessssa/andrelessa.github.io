@@ -32,13 +32,31 @@
     <main>
         <form ><!-- ESTRUTURA BÁSICA-->
             <label for="nomeSobrenome">Nome e Sobrenome: </label>
-            <input type="text" name="nomeSobrenome" id="nomeSobrenome">
+            <input type="text" name="nomeSobrenome" id="nomeSobrenome" class="input-padrao">
 
             <label for="email">Email: </label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" class="input-padrao">
 
             <label for="telefone">Telefone: </label>
-            <input type="text" name="telefone" id="telefone">
+            <input type="text" name="telefone" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="60" rows="10" class="input-padrao"></textarea>
+
+            <div>
+            <p>Como Prefere o nosso contato? </p>
+            <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="email">Email</label>
+           
+            
+            <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
+            
+            
+            <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="watsapp">WatsApp</label>
+            
+            </div>
+
+            <label for="gostaria"><input type="checkbox" name="" id="gostaria" class="checkbox"> Gostaria de receber nossas novidade por E-mail? </label>
+
 
             <input type="submit" value="Enviar Formulário">
 
