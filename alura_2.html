@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/alura_1.css">
+    <link rel="stylesheet" href="css/alura_style.css">
     <style>
         footer{
        background: url("img/alura_1/bg.jpg");
@@ -38,13 +38,13 @@
             <input type="email" name="email" id="email" class="input-padrao">
 
             <label for="telefone">Telefone: </label>
-            <input type="text" name="telefone" id="telefone" class="input-padrao">
+            <input type="tel" name="telefone" id="telefone" class="input-padrao">
 
             <label for="mensagem">Mensagem</label>
             <textarea name="" id="mensagem" cols="60" rows="10" class="input-padrao"></textarea>
 
             <div>
-            <p>Como Prefere o nosso contato? </p>
+            <p class="teste" id="teste">Como Prefere o nosso contato? </p>
             <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="email">Email</label>
            
             
@@ -53,6 +53,14 @@
             
             <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="watsapp">WatsApp</label>
             
+            </div>
+            <div>
+            <p>Qual o horário prefere ser atendido </p>
+            <select name="" id="">
+                <option value="">Manhã</option>
+                <option value="">Tarde</option>
+                <option value="">Noite</option>
+            </select>
             </div>
 
             <label for="gostaria"><input type="checkbox" name="" id="gostaria" class="checkbox"> Gostaria de receber nossas novidade por E-mail? </label>
