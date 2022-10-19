@@ -1,52 +1,51 @@
 class cliente {
     nome;
     cpf;
-
 }
-const cliente1 = new cliente();
-const cliente2 = new cliente();
-
-
 class contaCorrente {
     agencia;
-    saldo;
+    saldo = 0;
 
-    sacar(valorSacado) {
-        
-if (conta2.saldo >= valorSacado) {
-    conta2.saldo -= valorSacado;
-    console.log(conta2.saldo)
-
-} else {
-    console.log(`Seu Saldo é ${conta2.saldo} por isso nao foi possivel` )
-}
-        
+    sacar(valor) {
+        if (this.saldo >= valor) {
+            this.saldo -= valor;
+        }
+    }
+    depositar(valor) {
+        if (valor > 0) {
+            this.saldo += valor;  
+        }
     }
 }
-
-let valorSacado = 150;
-
-
-const conta1 = new contaCorrente();
-const conta2 = new contaCorrente();
-conta2.saldo = 100;
-conta2.sacar(valorSacado);
-
-
+const cliente1 = new cliente();
 cliente1.nome = "Ricardo";
-cliente1.cpf = 11121212;
+cliente1.cpf = 11223344;
 
-
+const cliente2 = new cliente();
 cliente2.nome = "Alice";
-cliente2.cpf = 111212882;
-
-conta1.agencia = 1001;
-conta1.saldo = 10;
-
-conta2.agencia = 1001;
+cliente2.cpf = 4433221122;
 
 
 
-console.log(cliente1, conta1);
-console.log(cliente2, conta2);
+const contaCorrenteRicardo = new contaCorrente();
+contaCorrenteRicardo.saldo = 0;
+contaCorrenteRicardo.agencia = 1001;
 
+contaCorrenteRicardo.depositar(500);
+contaCorrenteRicardo.sacar(50);
+contaCorrenteRicardo.sacar(50);
+
+const contaCorrenteAlice = new contaCorrente();
+contaCorrenteAlice.saldo = 0;
+contaCorrenteAlice.agencia = 1002;
+
+contaCorrenteAlice.depositar(400);
+contaCorrenteAlice.sacar(100);
+
+
+console.log(cliente1);
+console.log(contaCorrenteRicardo);
+
+console.log("")
+console.log(cliente2);
+console.log(contaCorrenteAlice);
