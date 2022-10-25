@@ -10,7 +10,5 @@ https://andrelessssa.github.io/calculadora.html
 
 https://andrelessssa.github.io/jogo.html
 
-https://andrelessssa.github.io/alura_0.html
 
-https://andrelessssa.github.io/alura_1.html
  
