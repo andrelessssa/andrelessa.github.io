@@ -1,7 +1,16 @@
+body{
+    background-color: #CCCCCC; 
+}
+
 p{
     font-size: 20px;
     text-align: center;
+    
 }
 h1{
     text-align: center;
+    
+}
+em strong {
+    color: red;
 }
