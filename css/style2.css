@@ -1,16 +1,107 @@
-body{
-    background-color: #CCCCCC; 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'josefin sans', sans-serif;
 }
+.background{
 
-p{
+    background-image: url(/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+}
+nav h2{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+span{
+    color: #f9004d;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transform: scale(1.2);
+}
+.btn{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+h4{
+    color: #fcfcfc;
+    letter-spacing: 2px;
     font-size: 20px;
-    text-align: center;
-    
 }
 h1{
-    text-align: center;
-    
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
 }
-em strong {
-    color: red;
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.container-btn form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+.container-btn form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border-radius: 30px;
+    outline: none;
+}
+.container-btn form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 10px 30px ;
+    border: none;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: #fff;
+    box-shadow: 0px 0px 15px red;
+    right: 6px;
+    top: 6px;
+   
 }
