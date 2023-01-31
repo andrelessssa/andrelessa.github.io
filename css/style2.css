@@ -196,6 +196,7 @@ h3{
     text-align: center;
     margin-top: 25px 0px;
     color: #f9004d;
+    padding: 20px 0px 20px;
 
 
 }
@@ -206,7 +207,77 @@ h3{
 
 }
 .card p {
-    color: #fcfcfc;
+    color: #ffff;
     font-size: 16px;
     line-height: 27px;
+    margin-bottom: 25px;
+}
+.btn{
+    border: none;
+    
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.me-contate{
+    width: 100%;
+    height: 240px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.me-contate p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h6 {
+    font-size: 35px;
+    color: #fff;
+}
+footer p {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.redes-sociais{
+    display: flex;
+}
+.redes-sociais a{
+    background-color: #f9004d;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.redes-sociais a:hover{
+    transform: scale(1.2);
+    transition: .5s;
 }
