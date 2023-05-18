@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(251, 251, 251);
+    margin: 50px auto;
+}
+.img {
+    justify-content: center;
+    display: flex;
+  
+}
+.texto{
+    display: flex;
+    justify-content: center;
+}
