@@ -107,7 +107,7 @@ form .input-grupo button{
 
 @media (max-width:930px){
     .img-box{
-        display: none;
+        display: grid;
     }
     .box{
         width: 700px;
