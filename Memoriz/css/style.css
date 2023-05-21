@@ -106,12 +106,17 @@ form .input-grupo button{
 }
 
 @media (max-width:930px){
-    .img-box{
-        display: grid;
-    }
+
     .box{
+        display: grid;
         width: 700px;
+        justify-items: center;
+        
     }
+   .box .img-box{
+    background: none;
+    
+   }
     .form-box{
         width: 100%;
         border-radius: 20px;
