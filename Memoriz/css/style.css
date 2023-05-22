@@ -237,6 +237,62 @@ textarea{
         width: 100%;
         padding: 0;
     }
+    body{
+        width: 100% auto;
+        height: 100%;
+    }
+    .logo-topo{
+        width: 50%;
+    }
+    .caixa-nav-top{
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+    .caixa-ul-top ul{
+        display: flex;
+    }
+    .caixa-ul-top ul li{
+        display: flex;
+        margin: 5px;
+        padding-top: 10%;
+       
+    }
+    .caixa-ul-top ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .caixa-topo{
+   
+    position: fixed;
+    height: 91px;
+    left: 0px;
+
+    }
+   .box{
+        display: grid;
+        width: 700px;
+        justify-items: center;
+           
+    }
+    .area{
+        width: 100%;
+        height: 400px;
+    }
+   .box .img-box{
+    background: none;
+    justify-content: center;
+    width: 350px;
+   }
+    .form-box{
+        width: initial;
+        
+        border-radius: 20px;  
+    }
+}
+
+
     
     
 }
