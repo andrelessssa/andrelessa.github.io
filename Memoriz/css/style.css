@@ -63,12 +63,12 @@ header.caixa-topo{
 }
 .caixa-ul-top ul li a{
     text-decoration: none;
-    color: white;
+    color:#3e3c6e;
     
     
 }
 .caixa-ul-top ul li a:hover{
-    color:#3e3c6e;
+    color: white;
 }
 .w50{
     width: 80%;
@@ -92,12 +92,8 @@ header.caixa-topo{
     border-radius: 20px 0 0 20px;
 
 }
-.caixa-logo{
-    
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-
+.logo-topo{ 
+    margin-left: 50px;
 }
 
 .form-box{
@@ -194,16 +190,27 @@ textarea{
     }
     .material-symbols-outlined{
         display: flex; 
-        justify-content: center;      
+        justify-content: center;  
+        font-size: 50px;  
+        color:#3e3c6e; 
+        width: 76px;
+        height: 72px;
+        align-items: center; 
+        margin-right: 20px;
+    }
+    .material-symbols-outlined:hover{
+        cursor: pointer;
+        color:  white;
     }
    
     .logo-topo{
-        width: 50%;
+        margin-left: 0;
+
     }
     .caixa-nav-top{
         width: 50%;
         display: flex;
-        justify-content: end;
+        justify-items: center;
     }
     .caixa-ul-top ul{
         display: none;
@@ -216,7 +223,16 @@ textarea{
     }
     .caixa-ul-top ul li a{
         text-decoration: none;
-        color: black;
+        color:#3e3c6e;
+
+    }
+    .caixa-ul-top ul li a:hover{
+        color: white;
+    }
+    .caixa-logo{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
     }
 
     .caixa-topo{
