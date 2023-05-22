@@ -10,4 +10,3 @@ function clickMenu(){
     }
 
 
-alert('teste')
