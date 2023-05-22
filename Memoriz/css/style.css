@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
    
+   
 }
 body{
     background-image: url(/Memoriz/img/background.png);
@@ -36,6 +37,14 @@ header.caixa-topo{
     position: fixed;
     top: 0;
 }
+
+.material-symbols-outlined{
+
+    display: none;
+    
+}
+
+
 .logo-topo{
     width: 50%;
 }
@@ -54,7 +63,12 @@ header.caixa-topo{
 }
 .caixa-ul-top ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
+    
+    
+}
+.caixa-ul-top ul li a:hover{
+    color:#3e3c6e;
 }
 .w50{
     width: 80%;
@@ -178,6 +192,11 @@ textarea{
         width: 100% auto;
         height: 100%;
     }
+    .material-symbols-outlined{
+        display: flex; 
+        justify-content: center;      
+    }
+   
     .logo-topo{
         width: 50%;
     }
@@ -187,7 +206,7 @@ textarea{
         justify-content: end;
     }
     .caixa-ul-top ul{
-        display: flex;
+        display: none;
     }
     .caixa-ul-top ul li{
         display: flex;
@@ -232,67 +251,9 @@ textarea{
 
 
 
-@media (max-width:500px) {
-    .w50{
-        width: 100%;
-        padding: 0;
-    }
-    body{
-        width: 100% auto;
-        height: 100%;
-    }
-    .logo-topo{
-        width: 50%;
-    }
-    .caixa-nav-top{
-        width: 50%;
-        display: flex;
-        justify-content: end;
-    }
-    .caixa-ul-top ul{
-        display: flex;
-    }
-    .caixa-ul-top ul li{
-        display: flex;
-        margin: 5px;
-        padding-top: 10%;
-       
-    }
-    .caixa-ul-top ul li a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .caixa-topo{
+@media (max-width:419px) {
    
-    position: fixed;
-    height: 91px;
-    left: 0px;
-
-    }
-   .box{
-        display: grid;
-        width: 700px;
-        justify-items: center;
-           
-    }
-    .area{
-        width: 100%;
-        height: 400px;
-    }
-   .box .img-box{
-    background: none;
-    justify-content: center;
-    width: 350px;
-   }
-    .form-box{
-        width: initial;
-        
-        border-radius: 20px;  
-    }
-}
-
-
+    
     
     
 }
