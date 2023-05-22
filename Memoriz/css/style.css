@@ -8,7 +8,7 @@
    
 }
 body{
-    background-image: url(/Memoriz/img/background.png);
+    background-image: url(/src/main/resources/static/img/background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,27 +29,32 @@ body{
 }
 .box{
     display: flex;
-    width: 930px;
+    width: 1000px;
 
 }
 .img-box{
     background-color: rgba(255,255, 255,0.5);
     width: 50%;
-    display: flex;
+    display: grid;
     align-items: center;
     padding: 20px;
     border-radius: 20px 0 0 20px;
 
 }
-.img-box img{
-    width: 20%;
-    
+.caixa-logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
 }
+
 .form-box{
     background-color: rgba(255,255, 255,0.4);
     backdrop-filter: blur(40px);
     padding: 30px 40px;
-    width: 50%;
+    width: 80%;
     border-radius: 0 20px 20px 0;
 }
 .form-box h2{
@@ -95,7 +100,7 @@ form .input-grupo input:focus{
 form .input-grupo button{
     width: 100%;
     height: 47px;
-    background: #ff008a;
+    background: #3e3c6e;
     border-radius: 20px;
     outline: none;
     border: none;
@@ -118,6 +123,19 @@ textarea{
     
 
 }
+.area{
+    width: 130%;
+    height: 200px;
+    background-color: rgba(255,255, 255,0.32);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+
+}
 
 @media (max-width:930px){
 
@@ -131,7 +149,7 @@ textarea{
    .box .img-box{
     background: none;
     justify-content: center;
-    width: 500px;
+    width: 350px;
     
     
    }
