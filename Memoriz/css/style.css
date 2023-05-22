@@ -117,9 +117,13 @@ form .input-grupo button{
    .box .img-box{
     background: none;
     justify-content: center;
-    width: 100%;
+    width: 500px;
     
     
+   }
+   .imgg{
+    width: 0px;
+   
    }
   
     .form-box{
