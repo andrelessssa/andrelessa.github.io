@@ -50,9 +50,7 @@ nav ul{
 nav ul li{
     display: flex;
     margin: 15px; 
-
    
-    
 }
 nav ul li a{
     text-decoration: none;
@@ -211,6 +209,7 @@ textarea{
   
     .logo-topo{
         margin-left: 0;
+        width: 30%;
 
     }
     .caixa-nav-top{
