@@ -34,7 +34,7 @@ header{
     top: 0;
 }
 .logo-topo{
-    width: 50%; 
+    width: 100%; 
     margin-left: 50px;   
 }
 .caixa-nav-top{
@@ -42,9 +42,7 @@ header{
     display: flex;
     justify-content: end;
 }
-.material-symbols-outlined{
-    display: none;    
-}
+
 nav ul{
     display: flex;
 
@@ -66,7 +64,7 @@ nav ul li a:hover{
     color: white;
 }
 .box{
-    display: grid;
+    display: flex;
     width: 1000px;
     padding: 150px;
 }
