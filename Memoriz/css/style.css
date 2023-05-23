@@ -266,7 +266,17 @@ textarea{
    
 }
 @media (max-width:419px) {
-   
+    
+    .logo-topo{
+        margin-left: 0;
+        width: 30%;
+
+    }
+    .caixa-nav-top{
+        width: 70%;
+        display: flex;
+        justify-items: center;
+    }
     
     
     
