@@ -202,10 +202,7 @@ textarea{
 
 
 @media (max-width:930px){
-    body{
-        width: 100% auto;
-        height: 100%;
-    }
+    
   
     .logo-topo{
         margin-left: 0;
