@@ -47,10 +47,14 @@ header{
 }
 nav ul{
     display: flex;
+
 }
 nav ul li{
     display: flex;
-    margin: 18px;   
+    margin: 15px; 
+
+   
+    
 }
 nav ul li a{
     text-decoration: none;
@@ -62,7 +66,7 @@ nav ul li a:hover{
     color: white;
 }
 .box{
-    display: flex;
+    display: grid;
     width: 1000px;
     padding: 150px;
 }
