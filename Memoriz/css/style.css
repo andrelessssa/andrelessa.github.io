@@ -213,8 +213,7 @@ textarea{
   
     .logo-topo{
         margin-left: 0;
-        display: flex;
-        height: 30%;
+
     }
     .caixa-nav-top{
         width: 70%;
@@ -237,6 +236,39 @@ textarea{
     nav ul li a:hover{
         color: white;
     }
+    .caixa-logo{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    .caixa-topo{
+   
+        position: fixed;
+        height: 91px;
+        left: 0px;
+    
+     }
+     .box{
+        display: grid;
+        width: 700px;
+        justify-items: center;
+           
+    }
+    .area{
+        width: 285px;
+        height: 400px;
+    }
+   .box .img-box{
+    background: none;
+    justify-content: center;
+    width: 350px;
+   }
+    .form-box{
+        width: initial;
+        
+        border-radius: 20px;  
+    }
+
    
 }
 @media (max-width:419px) {
