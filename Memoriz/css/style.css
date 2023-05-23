@@ -17,7 +17,7 @@ body{
     padding: 20px;
     min-height: 100vh;
 }
-header.caixa-topo{
+header{
     display: flex;
     justify-items: center;
     position: fixed;
@@ -33,47 +33,33 @@ header.caixa-topo{
     position: fixed;
     top: 0;
 }
-.material-symbols-outlined{
-    display: none;    
-}
 .logo-topo{
-    width: 50%;
-}
-.logo-topo img{
-    cursor: pointer;
+    width: 50%; 
+    margin-left: 50px;   
 }
 .caixa-nav-top{
     width: 50%;
     display: flex;
     justify-content: end;
 }
-.caixa-ul-top ul{
+.material-symbols-outlined{
+    display: none;    
+}
+nav ul{
     display: flex;
 }
-.caixa-ul-top ul li{
+nav ul li{
     display: flex;
     margin: 18px;   
 }
-.caixa-ul-top ul li a{
+nav ul li a{
     text-decoration: none;
     color:#3e3c6e;
     font-weight: bold; 
     font-size: 14px;    
 }
-.caixa-logo{
-    display: flex;
-    justify-content: center;
-}
-.caixa-ul-top ul li a:hover{
+nav ul li a:hover{
     color: white;
-}
-.w50{
-    width: 80%;
-    float: left;
-    padding-right: 15px;
-}
-.data{
-    width: 50%;
 }
 .box{
     display: flex;
@@ -88,9 +74,44 @@ header.caixa-topo{
     padding: 20px;
     border-radius: 20px 0 0 20px;
 }
-.logo-topo{ 
-    margin-left: 50px;
+.caixa-logo{
+    display: flex;
+    justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.w50{
+    width: 80%;
+    float: left;
+    padding-right: 15px;
+}
+.data{
+    width: 50%;
+}
+
+
+
 .form-box{
     background-color: rgba(255,255, 255,0.4);
     
@@ -170,6 +191,16 @@ textarea{
     transition: all 0.4s ease;
     margin-top: 40px;
 }
+
+
+
+
+
+
+
+
+
+
 @media (max-width:930px){
     body{
         width: 100% auto;
