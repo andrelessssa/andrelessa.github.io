@@ -39,9 +39,6 @@ header.caixa-topo{
 .logo-topo{
     width: 50%;
 }
-.logo-topo img{
-    cursor: pointer;
-}
 .caixa-nav-top{
     width: 50%;
     display: flex;
