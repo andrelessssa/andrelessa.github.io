@@ -17,7 +17,7 @@ body{
     padding: 20px;
     min-height: 100vh;
 }
-header.caixa-topo{
+header{
     display: flex;
     justify-items: center;
     position: fixed;
@@ -33,144 +33,53 @@ header.caixa-topo{
     position: fixed;
     top: 0;
 }
-.material-symbols-outlined{
-    display: none;    
-}
 .logo-topo{
     width: 50%;
+    margin-left: 50px;
 }
 .caixa-nav-top{
     width: 50%;
     display: flex;
     justify-content: end;
 }
-.caixa-ul-top ul{
+.material-symbols-outlined{
+    display: none;    
+}
+
+nav ul{
     display: flex;
 }
-.caixa-ul-top ul li{
+nav ul li{
     display: flex;
     margin: 18px;   
 }
-.caixa-ul-top ul li a{
+
+nav ul li a{
     text-decoration: none;
     color:#3e3c6e;
     font-weight: bold; 
     font-size: 14px;    
 }
-.caixa-logo{
-    display: flex;
-    justify-content: center;
-}
-.caixa-ul-top ul li a:hover{
+nav ul li a:hover{
     color: white;
 }
-.w50{
-    width: 80%;
-    float: left;
-    padding-right: 15px;
-}
-.data{
-    width: 50%;
-}
-.box{
-    display: flex;
-    width: 1000px;
-    padding: 150px;
-}
-.img-box{
-    background-color: rgba(255,255, 255,0.5);
-    width: 50%;
-    display: grid;
-    align-items: center;
-    padding: 20px;
-    border-radius: 20px 0 0 20px;
-}
-.logo-topo{ 
-    margin-left: 50px;
-}
-.form-box{
-    background-color: rgba(255,255, 255,0.4);
-    
-    padding: 30px 40px;
-    width: 80%;
-    border-radius: 0 20px 20px 0;
-}
-.form-box h2{
-    font-weight: bold;
-    color: #3D3D3D;
-}
-.form-box form{
-    margin: 20px 0;
-}
-form{
-    display:grid;
-}
-form .input-grupo{
-    margin-bottom: 15px;
-}
-form .input-grupo label {
-    color: #3D3D3D;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-form .input-grupo input {
-    width: 100%;
-    height: 47px;
-    background-color: rgba(255,255, 255,0.32);
-    border-radius: 20px;
-    outline: none;
-    border: 2px solid transparent;
-    padding: 15px;
-    font-size: 15px;
-    color: #616161;
-    transition: all 0.4s ease;
-}
-form .input-grupo input:focus{
-    border-color: #ff008869;
-}
-form .input-grupo button{
-    width: 100%;
-    height: 47px;
-    background: #3e3c6e;
-    border-radius: 20px;
-    outline: none;
-    border: none;
-    margin-top: 15px;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-}
-textarea{
-    width: 100%;
-    height: 200px;
-    background-color: rgba(255,255, 255,0.32);
-    border-radius: 20px;
-    outline: none;
-    border: 2px solid transparent;
-    padding: 15px;
-    font-size: 15px;
-    color: #616161;
-    transition: all 0.4s ease;
-    
-}
-.area{
-    width: 130%;
-    height: 405px;
-    background-color: rgba(255,255, 255,0.32);
-    border-radius: 20px;
-    outline: none;
-    border: 2px solid transparent;
-    padding: 15px;
-    font-size: 15px;
-    color: #616161;
-    transition: all 0.4s ease;
-    margin-top: 40px;
-}
+
+
+
+
+
 @media (max-width:930px){
     body{
         width: 100% auto;
         height: 100%;
+    }
+    .logo-topo{
+        margin-left: 0;
+    }
+    .caixa-nav-top{
+        width: 50%;
+        display: flex;
+        justify-items: center;
     }
     .material-symbols-outlined{
         display: flex; 
@@ -186,59 +95,22 @@ textarea{
     .material-symbols-outlined:hover{
         cursor: pointer;
         color:  white;
-    }
-    .logo-topo{
-        margin-left: 0;
-    }
-    .caixa-nav-top{
-        width: 50%;
-        display: flex;
-        justify-items: center;
-    }
-    .caixa-ul-top ul{
+    }   
+    nav ul{
         display: none;
     }
-    .caixa-ul-top ul li{
+    nav ul li{
         display: flex;
         margin: 5px;
         padding-top: 10%;  
     }
-    .caixa-ul-top ul li a{
+    nav ul li a{
         text-decoration: none;
         color:#3e3c6e;
         font-weight: bold; 
     }
-    .caixa-ul-top ul li a:hover{
+    nav ul li a:hover{
         color: white;
-    }
-    .caixa-logo{
-        display: flex;
-        justify-content: center;
-        margin: 20px;
-    }
-    .caixa-topo{
-    position: fixed;
-    height: 91px;
-    left: 0px;
-    }
-   .box{
-        display: grid;
-        width: 700px;
-        justify-items: center;      
-    }
-    .area{
-        width: 285px;
-        height: 400px;
-    }
-   .box .img-box{
-    background: none;
-    justify-content: center;
-    width: 350px;
-   }
-    .form-box{
-        width: initial;
-        
-        border-radius: 20px;  
     }
 }
 @media (max-width:419px) {
