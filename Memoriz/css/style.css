@@ -206,6 +206,7 @@ textarea{
         width: 100% auto;
         height: 100%;
     }
+    /*
     .material-symbols-outlined{
         display: flex; 
         justify-content: center;  
@@ -221,6 +222,7 @@ textarea{
         cursor: pointer;
         color:  white;
     }
+    */
     .logo-topo{
         margin-left: 0;
     }
@@ -230,7 +232,7 @@ textarea{
         justify-items: center;
     }
     .caixa-ul-top ul{
-        display: none;
+        display: flex;
     }
     .caixa-ul-top ul li{
         display: flex;
