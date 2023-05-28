@@ -63,6 +63,52 @@ nav ul li a{
 nav ul li a:hover{
     color: white;
 }
+.timeline {
+ 
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 50px;
+  }
+  
+  .timeline-item {
+    margin-bottom: 50px;
+
+  }
+  
+  .timeline-date {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#3e3c6e;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+  .timeline-content {
+    background-color: rgba(255,255, 255,0.32);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+  }
+  
+  .timeline h3 {
+    margin-top: 0;
+  }
+  
+  .timeline p {
+    margin-bottom: 0;
+  }
+
+
 
 
 
