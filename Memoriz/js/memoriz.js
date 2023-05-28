@@ -1,22 +1,29 @@
+function salvarResumo() {
+  const materia = document.getElementById('materia').value;
+  const assunto = document.getElementById('assunto').value;
+  const data = document.getElementById('data').value;
+  const resumo = document.getElementById('resumo').value;
 
-document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede o envio do formulário
-  
-    // Obter os valores digitados pelo usuário
-    var materia = document.getElementById('materia').value;
-    var assunto = document.getElementById('assunto').value;
-    var data = document.getElementById('data').value;
-    var resumo = document.getElementById('resumo').value;
-  
-    // Armazenar os valores no localStorage
-    localStorage.setItem('materia', materia);
-    localStorage.setItem('assunto', assunto);
-    localStorage.setItem('data', data);
-    localStorage.setItem('resumo', resumo);
-  
-    // Redirecionar para outra página
-    window.location.href = '/Memoriz/html/outra_pagina.html';
-  });
-  
+  const resumosSalvos = localStorage.getItem('resumos');
+  let resumos = [];
 
+  if (resumosSalvos) {
+    resumos = JSON.parse(resumosSalvos);
+  }
 
+  resumos.push({ materia, assunto, data, resumo });
+
+  localStorage.setItem('resumos', JSON.stringify(resumos));
+
+  document.getElementById('materia').value = '';
+  document.getElementById('assunto').value = '';
+  document.getElementById('data').value = '';
+  document.getElementById('resumo').value = '';
+
+  window.location.href = '/Memoriz/html/meusResumos.html';
+}
+
+document.getElementById('formulario').addEventListener('submit', function(event) {
+  event.preventDefault(); // Evita o comportamento padrão do formulário
+  salvarResumo();
+});
