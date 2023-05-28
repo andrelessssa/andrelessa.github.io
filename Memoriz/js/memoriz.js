@@ -15,7 +15,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     localStorage.setItem('resumo', resumo);
   
     // Redirecionar para outra página
-    window.location.href = '/Memoriz/html/meusResumos.html';
+    window.location.href = '/Memoriz/html/outra_pagina.html';
   });
   
 
