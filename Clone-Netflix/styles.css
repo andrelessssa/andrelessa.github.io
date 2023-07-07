@@ -5,7 +5,6 @@ body.bg_filmes {
     background-image: url(assets/background.png);
     background-position: center;
     background-size: cover; /* organizar como uma capa      */
-
 }
 header{
     padding: 50px;
@@ -16,8 +15,7 @@ header{
     );
 }
 header img{
-    width: 150px; 
-    
+    width: 150px;     
 }
 .fundo{
     background-color: #3C3C3C;
@@ -27,7 +25,6 @@ header img{
     background: rgba(0,0,0,0.5);
     padding: 30px;
    /* margin-top: 150px; */
-
 }
 .assine{
     font-size: 18px;
