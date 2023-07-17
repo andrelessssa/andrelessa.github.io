@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+html{
+    font: 62.5%;
+}
+
+html,
+body{
+    overflow-x: hidden;  // forcar para forcar que nao de barra lateral 
+}
+
+button{
+    background-color: transparent;
+    cursor: pointer;
+}
