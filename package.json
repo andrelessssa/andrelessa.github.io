@@ -1,0 +1,11 @@
+{
+  "name": "andrelessssa.github.io",
+  "version": "1.0.0",
+  "description": "npm run dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
