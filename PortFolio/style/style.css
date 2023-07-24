@@ -93,8 +93,7 @@ body{
     background-color: var(--cor-hover);
 }
 .minha__foto{
-    padding: -35%;
-    width: 50%;
+   width: 50%;
 }
 .rodape{
     padding: 24px;
@@ -107,13 +106,14 @@ body{
 }
 @media (max-width: 1200px){
     .cabecalho{
-        padding: 10%;
+        padding: 30%;
+       
     }
     .cabecalho__menu{
         justify-content: center;
     }
     .minha__foto{
-   
+        height: 50%;
         width: 100%;
     }
     .apresentacao{
