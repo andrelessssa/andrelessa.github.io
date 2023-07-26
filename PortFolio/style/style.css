@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+
+
 :root{
     --cor-primaria: #000000 ;
     --cor-secundaria: #f6f6f6;
@@ -108,7 +110,13 @@ body{
     font-size: 1rem;
     font-weight: 400;
 }
+
 @media screen and (min-width: 375px) {
+    h1{
+        font-size: 1rem;
+        
+
+    }
     .cabecalho{
         height: 100px;
         padding: 0;   
@@ -137,5 +145,81 @@ body{
     }
 
 }
+
+@media screen and (min-width: 360px) {
+    h1{
+        font-size: 1rem;
+        
+
+    }
+    .cabecalho{
+        height: 100px;
+        padding: 0;   
+    }
+    .cabecalho__menu{
+        display: flex;
+        padding: 0;
+        padding: 30px 0 30px 0 ;
+        justify-content: center;
+
+    }
+    .cabecalho__menu__link{
+        padding: 2px;
+        
+    }
+    .minha__foto{
+        height: 50%;
+        width: 80%;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 2%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 280px) {
+    body{
+        padding: 5px;
+    }
+    h1{
+        font-size: 1rem;
+        
+
+    }
+    .cabecalho{
+        height: 100px;
+        padding: 0;   
+    }
+    .cabecalho__menu{
+        display: flex;
+        padding: 0;
+        padding: 30px 0 30px 0 ;
+        justify-content: center;
+
+    }
+    .cabecalho__menu__link{
+        padding: 2px;
+        
+    }
+    .minha__foto{
+        height: 50%;
+        width: 80%;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 0.1%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+}
+
+
 
 
