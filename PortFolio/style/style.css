@@ -108,30 +108,25 @@ body{
     font-size: 1rem;
     font-weight: 400;
 }
-@media (max-width: 375px){
-    header{
-        border: 2px solid wheat;
-        
-        
-    }
-    
-}
-
-
-
-
-@media (max-width: 1200px){
+@media screen and (min-width: 375px) {
     .cabecalho{
-    
-        padding: 30%;
-       
+        height: 100px;
+        padding: 0;   
     }
     .cabecalho__menu{
+        display: flex;
+        padding: 0;
+        padding: 30px 0 30px 0 ;
         justify-content: center;
+
+    }
+    .cabecalho__menu__link{
+        padding: 2px;
+        
     }
     .minha__foto{
         height: 50%;
-        width: 100%;
+        width: 80%;
     }
     .apresentacao{
         flex-direction: column-reverse;
@@ -140,4 +135,7 @@ body{
     .apresentacao__conteudo{
         width: auto;
     }
+
 }
+
+
