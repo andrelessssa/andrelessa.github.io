@@ -9,7 +9,6 @@
     --font-primaria: 'Montserrat', sans-serif;
     --font-secundaria:'Krona One', sans-serif;
 }
-
 *{
     margin: 0;
     padding: 0;
@@ -109,8 +108,21 @@ body{
     font-size: 1rem;
     font-weight: 400;
 }
+@media (max-width: 375px){
+    header{
+        border: 2px solid wheat;
+        
+        
+    }
+    
+}
+
+
+
+
 @media (max-width: 1200px){
     .cabecalho{
+    
         padding: 30%;
        
     }
