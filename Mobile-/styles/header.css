@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+
+    
+    
 }
 
 .cabeçalho {
@@ -13,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    
 }
 
 .container {
@@ -28,7 +32,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    width: 20vw;
 }
 
 .container__botao:checked~.lista-menu {
@@ -56,4 +60,22 @@
 
 .container__botao {
     display: none;
+}
+.container__titulo{
+    display: none;
+}
+@media screen and (min-widht: 1024px){
+    .container__titulo, 
+    .container__tilulo--negrito{
+        font-family: var(--fonte-segundaria);
+        font-size: 30px;
+
+    }
+    .container__titulo{
+        font-weight: 400;
+        
+    }
+    .container__tilulo--negrito{
+        font-weight: 700;
+    }
 }
