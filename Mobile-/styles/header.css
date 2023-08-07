@@ -49,9 +49,13 @@
     display: none;
 }
 .container__titulo{
-   
+    display: none;
 }
-@media screen and (min-widht: 1024px){
+
+
+@media screen and (min-width: 1024px){
+    
+    
     .container__titulo, 
     .container__tilulo--negrito{
         font-family: var(--fonte-secundaria);
@@ -59,9 +63,12 @@
     }
     .container__titulo{
         font-weight: 400;
+        display: block;
+        
         
     }
     .container__tilulo--negrito{
         font-weight: 700;
     }
+
 }
