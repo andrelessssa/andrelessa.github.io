@@ -4,25 +4,18 @@
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
-    display: inline-block;    
-    
+    display: inline-block;       
 }
-
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    
-    
-    
+    position: relative;   
 }
-
 .container {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 .container__imagem {
     padding: 1em;
@@ -56,12 +49,12 @@
     display: none;
 }
 .container__titulo{
-    display: none;
+   
 }
 @media screen and (min-widht: 1024px){
     .container__titulo, 
     .container__tilulo--negrito{
-        font-family: var(--fonte-segundaria);
+        font-family: var(--fonte-secundaria);
         font-size: 30px;
     }
     .container__titulo{
