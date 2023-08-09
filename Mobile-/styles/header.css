@@ -78,7 +78,7 @@
     }
     .opções__item{
         padding: 0 1em;
-        text-transform: uppercase;
+        text-transform: uppercase;     
     }
     .opções__link{
         text-decoration: none;
@@ -93,8 +93,10 @@
     .opções__botão:checked ~ .lista-menu{
         display: block;
         width: auto;
+        
     }
    
-
-   
+}
+@media screen and (min-width: 1728px) {
+    
 }
