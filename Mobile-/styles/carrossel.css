@@ -110,13 +110,13 @@
         width: 50%;
     }
     .descrição__titulo{
-        font-size: 32px;
+        font-size: 30px;
     }
     .descrição__texto{
         font-size: 16px;
     }
     .descrição{
-        margin: 2em;
+        margin-right: 2em;
     }
     .card{
         width: 60%;
