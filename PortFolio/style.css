@@ -1,0 +1,39 @@
+:root{
+    --cor-principal: #2C2C2C; 
+    --cor-titulo: #FFFFFF;
+    --cor-texto: #B3B3B3;
+    --fonte-principal: 'Poppins'; 
+}
+body{
+    background-color: var(--cor-principal);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.conteudo{
+    padding: 40px ;
+}
+.titulo{
+    color: var(--cor-titulo);
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 14px;
+    
+}
+.titulo-profissao{
+    color: var(--cor-texto);
+    font-size: var(--fonte-principal);
+    font-weight: 400;  
+    padding-bottom: 24px; 
+}
+.foto{
+    width: 325px;
+    height: 277px;
+    border-radius: 24px;
+}
+.icones{
+    padding-top: 40px;
+    display: flex;
+    justify-content:last baseline;   
+}
