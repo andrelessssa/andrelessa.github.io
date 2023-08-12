@@ -8,11 +8,11 @@
 body{
     background-color: var(--cor-principal);
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: center;   
 }
 .conteudo{
     padding: 40px ;
+    
 }
 .titulo{
     color: var(--cor-titulo);
@@ -53,4 +53,29 @@ body{
     color: var(--cor-titulo);
     text-decoration: none;
 
+}
+.experiencia{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    color: var(--cor-titulo);
+
+}
+.experiencia-texto{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 319px;
+    height: 82px;
+    color: var(--cor-texto);
+}
+.elementos{
+    padding: 10px;
 }
