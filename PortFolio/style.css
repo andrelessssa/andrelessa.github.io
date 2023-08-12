@@ -12,12 +12,14 @@ body{
 }
 .conteudo{
     padding: 40px ;
+    width: 325px;
+    height: 277px;
     
 }
 .titulo{
     color: var(--cor-titulo);
     font-family: var(--fonte-principal);
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     padding-bottom: 14px;
     
@@ -34,10 +36,25 @@ body{
     border-radius: 24px;
 }
 .icones{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content:space-between;   
+}
+.icones-links{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    
+}
+
+.arco{
+    border: 1px solid white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+
+    
 }
 .contato{
     background: var(--degrade-bota0);
@@ -45,7 +62,6 @@ body{
     height: 55px;
     border-radius: 24px;
     font-weight: 600;
-    
     line-height: 30px;
     font-size: 20px;
 }
@@ -72,10 +88,23 @@ body{
     line-height: 27px;
     letter-spacing: 0em;
     text-align: center;
-    width: 319px;
-    height: 82px;
     color: var(--cor-texto);
+      
 }
-.elementos{
-    padding: 10px;
+.experiencia-medida{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+       
 }
+.img-experiencia{
+    height: 30px;   
+}
+.barra-experiencia{
+    width: 89%;
+    height: 24px;
+    border-radius: 24px;
+    border: 1px;
+    background: var(--degrade-bota0)
+}
+
