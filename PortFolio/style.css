@@ -107,4 +107,22 @@ body{
     border: 1px;
     background: var(--degrade-bota0)
 }
+.linguegens{
+    display: flex;
+    color: var(--cor-texto);
+    padding-bottom: 24px;
+}
+.linguegens-texto{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
 
+}
+.img-linguagem{
+    width: 20px;
+    height: 24px;
+    padding-right: 14px;
+}
