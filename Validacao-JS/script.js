@@ -44,13 +44,11 @@ form.addEventListener("submit", (event) => {
     form.submit();
 });
 
-    // funcao que valida email 
+           // funcao que valida email 
 function isEmailValid(email){
-    // criar uma regex
-    
+         // criar uma regex    
         // usuario@host.com
         const emailRegex = new RegExp ( /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/);
-    
     if(emailRegex.test(email)){
         return true;
     }
