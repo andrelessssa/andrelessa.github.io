@@ -11,8 +11,12 @@ body{
     background: url("./image/3.jpg") no-repeat ;
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    margin: 0;
+    
    
 }
+
 h1{
     color:#003329;
     text-align: center;
@@ -62,6 +66,13 @@ img{
     padding: 20px;
     margin: 100px auto 0;
 
+}
+@media (max-width: 767px) {
+    .container{
+       width: auto;
+       
+    }
+    
 }
 .list-task{
     width: 100%;
