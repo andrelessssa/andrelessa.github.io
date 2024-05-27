@@ -1,7 +1,5 @@
 a{
-    
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .collapse navbar-collapse{
@@ -15,3 +13,17 @@ a{
 .what{
     padding: 20px;
 }
+@media (max-width: 703px) {
+    .container .row {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+    .container .row .col {
+      width: 100%;
+    }
+    .container img {
+      margin-bottom: 20px;
+    }
+  }
