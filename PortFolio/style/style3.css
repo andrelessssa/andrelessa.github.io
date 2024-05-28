@@ -11,8 +11,10 @@ a{
     align-items: center;
 }
 .what{
-    padding: 20px;
+    padding: 50px;
 }
+
+
 @media (max-width: 703px) {
     .container .row {
       display: flex;
