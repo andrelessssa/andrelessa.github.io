@@ -16,7 +16,7 @@ a{
 @media (max-width: 703px) {
     .container .row {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-items: center;
       text-align: center;
     }
