@@ -26,6 +26,9 @@ a{
     .container img {
       margin-bottom: 20px;
     }
+    .barra-progresso-custom {
+        width: 100% ;
+      }
     
    
    
